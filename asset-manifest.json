@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/cv/static/css/main.9e686650.chunk.css",
+    "main.js": "/cv/static/js/main.43ecac12.chunk.js",
+    "main.js.map": "/cv/static/js/main.43ecac12.chunk.js.map",
+    "runtime-main.js": "/cv/static/js/runtime-main.193c5ac8.js",
+    "runtime-main.js.map": "/cv/static/js/runtime-main.193c5ac8.js.map",
+    "static/js/2.fecb0c9c.chunk.js": "/cv/static/js/2.fecb0c9c.chunk.js",
+    "static/js/2.fecb0c9c.chunk.js.map": "/cv/static/js/2.fecb0c9c.chunk.js.map",
+    "index.html": "/cv/index.html",
+    "static/css/main.9e686650.chunk.css.map": "/cv/static/css/main.9e686650.chunk.css.map",
+    "static/js/2.fecb0c9c.chunk.js.LICENSE.txt": "/cv/static/js/2.fecb0c9c.chunk.js.LICENSE.txt",
+    "static/media/bookstore1.ad3c9b24.png": "/cv/static/media/bookstore1.ad3c9b24.png",
+    "static/media/bookstore2.58545a79.png": "/cv/static/media/bookstore2.58545a79.png",
+    "static/media/contacts1.98bd7f4a.png": "/cv/static/media/contacts1.98bd7f4a.png",
+    "static/media/contacts2.94f275bc.png": "/cv/static/media/contacts2.94f275bc.png",
+    "static/media/slides1.df25dd66.png": "/cv/static/media/slides1.df25dd66.png",
+    "static/media/slides2.143f4fbd.png": "/cv/static/media/slides2.143f4fbd.png",
+    "static/media/stocks1.496051e3.png": "/cv/static/media/stocks1.496051e3.png",
+    "static/media/stocks2.36e707a0.png": "/cv/static/media/stocks2.36e707a0.png",
+    "static/media/todo1.33912220.png": "/cv/static/media/todo1.33912220.png",
+    "static/media/todo2.108604ce.png": "/cv/static/media/todo2.108604ce.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.193c5ac8.js",
+    "static/js/2.fecb0c9c.chunk.js",
+    "static/css/main.9e686650.chunk.css",
+    "static/js/main.43ecac12.chunk.js"
+  ]
+}
