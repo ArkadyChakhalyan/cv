@@ -1,0 +1,39 @@
+.content-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 20pt;
+    white-space: nowrap;
+    color: rgb(61, 61, 61);
+    user-select: none;
+}
+
+h2+.line.decoration {
+    margin-left: 16px
+}
+
+.line.decoration {
+    height: 1px;
+    background-color: black;
+    width: 100%
+}
+
+.content {
+    padding: 8px 32px 0px 32px;
+    overflow: hidden;
+    transition: opacity 0.55s ease-in, max-height 0.7s ease-in-out;
+}
+
+.more:hover {
+    cursor: pointer;
+}

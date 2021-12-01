@@ -1,0 +1,198 @@
+.text {
+    text-transform: none;
+    font-size: 13pt;
+    text-align: center;
+    margin: 0;
+}
+
+.text-title {
+    font-size: 14pt;
+    margin-right: 64px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto;
+    justify-content: flex-start;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li+li {
+    margin-top: 24px;
+}
+
+.long>li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;   
+}
+
+.long>li+li {
+    margin-top: 24px;
+}
+
+.square {
+    min-width: 6px;
+    max-width: 6px;
+    min-height: 6px;
+    max-height: 6px;
+    background-color: black;
+    margin-right: 16px;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.date>p {
+    margin-top: 0px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-right: 64px;
+}
+
+.inside, .outside {
+    width: 160px;
+    height: 8px;
+    border-radius: 24px;
+    background-color: rgb(0, 0, 0, 0.2);
+}
+
+.inside {
+    background-color: rgb(0, 0, 0, 0.25);
+}
+
+.inside.english {
+    width: 88%;
+}
+
+.inside.norwegian {
+    width: 50%;
+}
+
+.inside.armenian {
+    width: 60%;
+}
+
+.inside.ph {
+    width: 65%;
+}
+
+.inside.ai {
+    width: 75%;
+}
+
+.inside.ae {
+    width: 40%;
+}
+
+.inside.figma {
+    width: 20%;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill>.text-title {
+    margin-right: 0;
+    margin-bottom: 8px;
+}
+
+.skills>li {
+    justify-content: center;
+}
+
+.skills>li+li {
+    margin-top: 0;
+    margin-left: 64px
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.codewars {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1400px) {
+
+    .long>li {
+        flex-wrap: wrap;
+    }
+
+    .text {
+        text-indent: 4pt;
+    }
+
+    .text-title {
+        text-indent: 0;
+    }
+
+    .extra {
+       margin-top: 16px
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .skills {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills>li+li {
+        margin-top: 16px;
+        margin-left: 0px
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .codewars {
+        transform: scale(0.75);
+    }
+
+    .text {
+        text-align: left;
+    }
+
+    li {
+        flex-wrap: wrap;
+    }
+
+    .top {
+        flex-direction: column;
+    }
+
+    .text+.date {
+        margin-top: 0px;
+    }
+
+    .date {
+        align-items: flex-start;
+        padding: 16px;
+    }
+}

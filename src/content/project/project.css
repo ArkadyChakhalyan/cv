@@ -1,0 +1,121 @@
+.container.projects {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    width: 70vw;
+    padding: 0;
+    margin: 0;
+}
+
+.content:last-child {
+    padding: 0;
+}
+
+.button {
+    border: none;
+    position: absolute;
+    background: none;
+    font-size: 64pt;
+    font-weight: bold;
+    color: rgb(0, 0, 0, 0.2);
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: rgb(0, 0, 0, 0.45);
+}
+
+.button:disabled {
+    color: rgb(0, 0, 0, 0.1);
+}
+
+.projects {
+    margin: 0;
+    padding: 0;
+    width: calc(70vw * 5);
+    display: flex;
+    align-items: flex-start;
+}
+
+.projects>li {
+    padding: 0px 48px;
+    margin: 0;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 1px;
+}
+
+.image {
+    cursor: pointer;
+    height: 235px;
+    width: 412px;
+    background-size: 100% 100%;
+    border: black solid 1px;
+}
+
+.title.accent {
+    font-size: 16pt;
+}
+
+.project>p {
+    font-size: 12pt;
+    padding: 0px 32px;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+@media only screen and (max-width: 820px) {
+    .image {
+        height: 160px;
+        width: 281px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .image {
+        height: 126px;
+        width: 221px;
+    }
+
+    .title.accent {
+        font-size: 13pt;
+    }
+
+    .project>p {
+        font-size: 10pt;
+    }
+
+    .links>a {
+        font-size: 10pt;
+    }
+}

@@ -1,0 +1,43 @@
+.popupBg {
+    position: fixed;
+    cursor: pointer;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.popupImage {
+    width: 1200px;
+    height: 684px;
+    background-size: 1200px 684px; 
+}
+
+@media only screen and (max-width: 1400px) {
+    .popupImage {
+        width: 900px;
+        height: 513px;
+        background-size: 900px 513px; 
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .popupImage {
+        width: 640px;
+        height: 365px;
+        background-size: 640px 365px; 
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .popupImage {
+        width: 460px;
+        height: 262px;
+        background-size: 460px 262px; 
+    }
+}

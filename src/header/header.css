@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+h1 {
+    text-align: right;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 40pt;
+    margin-bottom: 0;
+    color: rgb(61, 61, 61);
+    user-select: none;
+}
+
+h1+.line {
+    margin-top: 16px;
+}
+
+.line {
+    display: flex;
+}
+
+.line+.line {
+    margin-top: 12px;
+}
+
+.label {
+    margin-right: 8px;
+    color: rgb(61, 61, 61);
+}
+
+@media only screen and (max-width: 700px) {
+    .line {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .line+.line {
+        margin-top: 8px;
+    }
+
+    .label {
+        margin-right: 0;
+        margin-bottom: 2px;
+    }
+}
