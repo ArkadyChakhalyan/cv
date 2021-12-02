@@ -37,7 +37,8 @@ export const App = () => {
                 content={<CodeWars />} />
             <Content
                 title={'портфолио'}
-                content={<Projects />} />
+                content={<Projects />}
+                className={'portfolio'} />
         </div>
     )
 }

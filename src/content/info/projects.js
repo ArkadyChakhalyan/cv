@@ -34,7 +34,7 @@ export const Projects = () => {
         setPosition(prevState => prevState + 1);
         if (position > 4) setPosition(4);
     };
-    
+
     const [windowWidth, setWindowWidth] = useState();
 
     const resize = () => {
@@ -49,8 +49,8 @@ export const Projects = () => {
 
         if (position <= 0) setLeftDisabled(true);
         else setLeftDisabled(false);
-    
-        if(position >= 4) setRightDisabled(true);
+
+        if (position >= 4) setRightDisabled(true);
         else setRightDisabled(false);
 
     }, [position])
@@ -90,11 +90,11 @@ export const Projects = () => {
                     })
                 }
             </ul>
-            <button 
+            <button
                 className='button right'
                 onClick={onRightClick}
                 disabled={rightDisabled}
-                >
+            >
                 &#8250;
             </button>
         </div>

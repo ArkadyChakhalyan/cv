@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './content.css';
 
-export const Content = ({ title, content }) => {
+export const Content = ({ title, content, className }) => {
 
     const [show, setShow] = useState('visible');
     const [opacity, setOpacity] = useState();
@@ -34,7 +34,7 @@ export const Content = ({ title, content }) => {
                 <div className='line decoration' />
             </span>
             <span
-                className='content'
+                className={`content ${className}`}
                 style={{
                     visibility: show,
                     maxHeight: height,

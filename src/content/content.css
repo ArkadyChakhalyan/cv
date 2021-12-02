@@ -29,8 +29,8 @@ h2+.line.decoration {
 }
 
 .content {
-    padding: 8px 32px 0px 32px;
     overflow: hidden;
+    padding: 8px 32px 0px 32px;
     transition: opacity 0.55s ease-in, max-height 0.7s ease-in-out;
 }
 
